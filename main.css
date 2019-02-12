@@ -144,3 +144,27 @@
     border-left: transparent;
     border-bottom: transparent;
 }
+
+@media (max-width: 576px){
+    .lp{
+        margin-top: 5vh;
+    }
+    
+    .lpvid{
+        height: 100px;
+    }
+
+    
+}
+
+@media (max-width: 767px){
+    .lp{
+        margin-top: 0vh;
+    }
+    
+    .lpvid{
+        height: 100px;
+    }
+
+    
+}
