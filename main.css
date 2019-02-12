@@ -1,0 +1,146 @@
+.navsection{
+    background: #FFF;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+.section1{
+    background: url(Wireimage/hd-4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    color: #FFF;
+    margin-top: 0;
+}
+
+.navbar a{
+    color: #CCCCCC;
+    padding: 10px 20px !important;
+}
+
+.navbar a:hover{
+    background-color: #D6B007;
+}
+
+.navbar li:last-child{
+    /* margin-right: 20vw; */
+}
+/* .navrow{
+    position: fixed;
+    top: 0;
+} */
+
+.navrow button{
+    color: #FFF;
+    background-color: #D6B007;
+}
+
+.navrow button:hover{
+    border:1px solid #D6B007;
+    background-color: transparent;
+    color: #D6B007;
+    transition: 1s;
+}
+
+.lp{
+    margin-top: 18vh;
+}
+
+.lpvid{
+    height: 100px;
+}
+
+.lpvid:after{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 300px;
+    width: 150px;
+    height: 40px;
+    border: 20px solid #fff;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.section2img{
+    margin-top: -150px;
+}
+
+/* .section2img3{
+    width: 100%;
+} */
+
+.shad{
+    box-shadow: 0px 0 5px 0 rgba(0,0,0,0.2), 0 0 0px 0 rgba(0,0,0,0.1), 0 2px 2px 0 rgba(0,0,0,0.18);
+}
+
+.bordleft{
+    border-left: 1px solid #9c9c9c;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 50px 200px;
+}
+
+.text-orange{
+    color: #D6B007;
+}
+
+.text-white{
+    color: #FFF;
+}
+
+.text-gray{
+    color: #4C4C4C;
+}
+
+.section5{
+    background: url(wireimage/hd-5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.joinbtn{
+    background: #D6B007;
+    color: #FFF;
+    border-style: solid;
+}
+
+.spinner-grow{
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    top: -20px;
+    left: 230px;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 50px 200px;
+}
+
+.section9{
+    background: url(Wireimage/hd-13.jpg);
+    background-attachment: fixed;
+}
+
+.comres li a:before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    top: px;
+    left: 14px;
+    background: #9c9c9c;
+}
+
+.footersection{
+    background: #E9ECEF;
+    border: 0.5px solid #CCCCCC;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+}
